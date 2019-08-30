@@ -7,11 +7,23 @@ package com.lbj.pattern.template;
  */
 public abstract class Animal {
 
-    public abstract String getName();
-
-
+    /**
+     * 模板方法,按照一定的顺序执行
+     */
     public void show() {
+        sit();
         System.out.println(getName() + "，我是一只可爱的小动物！");
+        go();
     }
+
+    public void sit() {
+        System.out.println("坐下");
+    }
+
+    public void go() {
+        System.out.println("走你");
+    }
+
+    public abstract String getName();
 
 }
