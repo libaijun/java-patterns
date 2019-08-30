@@ -1,4 +1,4 @@
-package singleton;
+package com.lbj.pattern.singleton;
 
 /**
  * 单例模式

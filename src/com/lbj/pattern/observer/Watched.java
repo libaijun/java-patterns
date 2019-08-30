@@ -1,4 +1,4 @@
-package observer;
+package com.lbj.pattern.observer;
 
 import java.util.Observable;
 /**

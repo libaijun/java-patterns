@@ -1,4 +1,4 @@
-package observer;
+package com.lbj.pattern.observer;
 
 public class Client {
 	public static void main(String[] args) {
